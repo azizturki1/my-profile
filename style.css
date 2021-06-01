@@ -1,0 +1,82 @@
+/* Colors and fonts */
+body {
+background:#bfcba8;
+color: #435560;
+font-family: 'Abel', sans-serif;
+font-size: 20px;
+}
+h1 , h2 , h3 {
+	font-family: 'Fjalla One', sans-serif;
+}
+h1 {
+	color: #5b6d5b;
+     font-size:60px;
+}
+h2 {
+	color: #bdd2b6;
+	font-size:40px;
+	font-weight:lighter;
+}
+a {
+	font-family: 'Abel' sans-serif;
+	text-decoration: none;
+	color: #d8ac9c;
+	font-size: 15px;
+}
+a:hover {
+	color: #a2b29f;
+}
+
+
+
+
+/* Custom design with class */
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white {
+ 	background-color: #f8ede3;
+ 	padding: 40px;
+ 	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+ 	border-radius: 10px;
+ 	margin: 20px 0px;
+ 	text-align: center;
+ }
+.img-circle {
+	border-radius: 45%;
+}
+.btn-blue {
+	background-color: #d8ac9c;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: #91c788;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #a2b29f;
+}
+.list-inline i:hover {
+	color: #91c788;
+}
+/* Design adjustments using id */
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
